@@ -7,7 +7,7 @@ Install tomcat on above ec2 instance
 Install jenkins on seprate ec2 
 
 **Step3**
-Creation of jenkins job:
+##Creation of jenkins job:
 Source Code Management:
 Repository: https://github.com/Vijaygawate/Devops_project2-tomcat-.git
 Branches to build : */master
