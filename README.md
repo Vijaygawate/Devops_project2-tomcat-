@@ -25,7 +25,7 @@ Manage Jenkins > Jenkins Plugins > available > deploy to container
 ##To deploy our build artifacts on tomcat server our Jenkins server need access. For this we should setup credentials. This option is available in Jenkins home page
 setup credentials
 credentials > jenkins > Global credentials > add credentials
-Username : deployer
+Username : Vijay22
 Password : XXXXXXX
 id : Tomcat_user
 Description: Tomcat user to deploy on tomcat server
@@ -34,7 +34,7 @@ Description: Tomcat user to deploy on tomcat server
 Post Steps
 Deploy war/ear to container
 WAR/EAR files : **/*.war
-Containers : Tomcat 8.x
+Containers : Tomcat 10.x
 Credentials: Tomcat_user (which created in above step)
 Tomcat URL : http://<PUBLIC_IP>:<PORT_NO>
 
