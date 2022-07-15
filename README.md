@@ -1,4 +1,5 @@
 _Title_: Deployment of war file on tomcat 
+https://www.youtube.com/watch?v=nMLQgXf8tZ0&list=PLxzKY3wu0_FJdJd3IKdiM4Om1hGo2Hsdt&index=13
 **Step1**
 launch ec2 instance --open port 22 and 8080 
 Install tomcat on above ec2 instance 
