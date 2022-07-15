@@ -2,5 +2,5 @@
 From tomcat:latest
 
 # Maintainer 
-MAINTAINER "Vijay gawte" 
+MAINTAINER "Vijay Gawte" 
 COPY ./webapp.war /usr/local/tomcat/webapps
